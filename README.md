@@ -8,10 +8,26 @@ This project was developed during the 2018 Hack For a Cause event in Eugene, OR.
 
 We used the following technologies to implement our solution:
 
+Payment:
 - Paypal
 - Stripe
+
+Access points:
 - Bluetooth Beacons
 - NFC Tags
+- QR code
+
+1. Build the payment plugin
+
+1.1 Wordpress
+    
+    1.1.1 Woocommerce
+    
+  
+
+
+
+
 
 ## License
 
