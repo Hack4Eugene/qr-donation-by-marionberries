@@ -1,57 +1,45 @@
 # Hack For A Cause
 
+![freedome logo](assets/FREEDOM_FUND.jpg)
+
 ## Team: MarionBerries
 
 This project was developed during the 2018 Hack For a Cause event in Eugene, OR. It addresses the QR Donation challenge submitted by Adam Wendt from the [Eugene/Springfield NAACP](http://naacplanecounty.org/).
 
-## Usage
 
-We used the following technologies to implement our solution:
+## Challenge: Easy Donations
 
-Payment:
+Existing payment scheme was not intuitive to NAACP staff and donors. The Challenge Champion wanted to have a payment method that are:
+
+- Easy to pay through QR or other technnologies
+- Specific to five different causes (youth council, general fund, legal redress, ACT-SO, and Maddie Reynolds scholarship)
+- Doesn't require login to specific payment scheme for those who don't have accounts, but only their credit card
+- Collects donor's information (name, address, email, phone)
+
+
+## Solution
+
+### Wordpress E-Commerce Integration:
+    put your intro here
+
+- Wordpress
+- WooCommerce
+
+
+### Payment:
+    put your intro here
 
 - Paypal
 - Stripe
-- QR Codes
-- NFC Tags
-- Bluetooth Beacons
 
-## QR Codes
 
-## NFC Tags
+### Access points:
 
-### Writing URLs to Tags
-
-The NFC Tags hold the donation page URLs. The easiest way to write the URLs to the tags requires a smart phone with built-in NFC capability and an NFC writer app, such as [NFC Writer by Trigger](https://play.google.com/store/apps/details?id=com.tagstand.writer).
-
-In the Trigger NFC app:
-
-- tap the Web Address button
-- enter your desired URL
-- tap the Write Tag button
-- place tag against back of phone
-- this should cause the URL to be written to the tag
-- exit the app
-
-The phone should now be able to read the tag.
-
-## Bluetooth Beacons
-
-Access points:
+We used the following technologies to implement our solution. Usage of these technologies eliminate the need to enter NAACP website and navigate to payment page.
 
 - Bluetooth Beacons
 - NFC Tags
 - QR code
-
-1. Build the payment plugin
-
-1.1 Wordpress
-    
-    1.1.1 Woocommerce
-    
-  
-
-
 
 
 
