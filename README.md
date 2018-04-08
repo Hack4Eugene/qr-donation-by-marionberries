@@ -1,5 +1,7 @@
 # Hack For A Cause
 
+![freedome logo](assets/FREEDOM_FUND.jpg)
+
 ## Team: MarionBerries
 
 This project was developed during the 2018 Hack For a Cause event in Eugene, OR. It addresses the QR Donation challenge submitted by Adam Wendt from the [Eugene/Springfield NAACP](http://naacplanecounty.org/).
