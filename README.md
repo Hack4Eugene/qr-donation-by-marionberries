@@ -20,17 +20,21 @@ Existing payment scheme was not intuitive to NAACP staff and donors. The Challen
 ## Solution
 
 ### Wordpress E-Commerce Integration:
-    put your intro here
+
+The existing payment method was using the legacy Paypal extention. Donors were unable to donate to specific causes or add their contact information. Donors were forced to fill out paper slips with their credit card info in order to donate. Our solution implemented WooCommerce to provide donor with a better interface and more payment options.
 
 - Wordpress
-- WooCommerce
 
+### Payment Options:
 
-### Payment:
-    put your intro here
+[Paypal with WooCommerce](https://docs.woocommerce.com/document/paypal-standard/)
+[Stripe with Woocommerce](https://woocommerce.com/products/stripe/)
 
-- Paypal
-- Stripe
+### LightSail:
+
+The team used AWS LightSail to spin up an instance of the existing Wordpress site using Amazon AWS free tier.
+
+[AWS LightSail](https://aws.amazon.com/lightsail/)
 
 
 ### Access points:
