@@ -19,27 +19,51 @@ Existing payment scheme was not intuitive to NAACP staff and donors. The Challen
 
 ## Solution
 
+### Demo
+
+The team create a working prototype on AWS LightSail. Visit
+[Demo](http://naacplanecounty.locahost.com/)
+to try it out.
+
+#### You can test the Paypal and Stripe integration using your sandbox accounts.
+
+Stripe dummy credit card:  
+
+ - 4242 4242 4242 4242 with any valid exp date or CVC code.
+
+Paypal sandbox account: 
+
+ - Username: hodifrisli@2anom.com
+ - Password: wmy4h]<SsY9LE`Js
+
 ### Wordpress E-Commerce Integration:
-    put your intro here
+
+The existing payment method was using the legacy Paypal extention. Donors were unable to donate to specific causes or add their contact information. Donors were forced to fill out paper slips with their credit card info in order to donate. Our solution implemented WooCommerce to provide donor with a better interface and more payment options.
 
 - Wordpress
-- WooCommerce
 
+### Payment Options:
 
-### Payment:
-    put your intro here
+[Paypal with WooCommerce](https://docs.woocommerce.com/document/paypal-standard/)
 
-- Paypal
-- Stripe
+[Stripe with Woocommerce](https://woocommerce.com/products/stripe/)
+
+### LightSail:
+
+The team used AWS LightSail to spin up an instance of the existing Wordpress site using Amazon AWS free tier.
+
+[AWS LightSail](https://aws.amazon.com/lightsail/)
 
 
 ### Access points:
 
 We used the following technologies to implement our solution. Usage of these technologies eliminate the need to enter NAACP website and navigate to payment page.
 
-- Bluetooth Beacons
-- NFC Tags
-- QR code
+[Bluetooth Beacons](/documentation/bluetooth_beacon/)
+
+[NFC Tags](/documentation/nfc_tags/)
+
+[QR code](/documentation/qr_codes/)
 
 
 

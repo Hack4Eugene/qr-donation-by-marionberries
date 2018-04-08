@@ -1,0 +1,31 @@
+.woocommerce ul.products.columns-4 li.product-type-donation {
+  display: inline-block;
+  float: none!important;
+  margin: 0 0 3em 0;
+  padding-left: 3%;
+}
+
+/* the first of 4 columns */
+.woocommerce ul.products.columns-4 li.product-type-donation:nth-child(4n+1) {
+  padding-left: 0;
+}
+
+/* Hide the extra "description" heading on product pages */
+#tab-description > h2:first-child {
+  display: none;
+}
+
+/* Hide the meta-data (product category etc.) underneath the donate area on product pages */
+.single-product.woocommerce div.product_meta {
+  display: none;
+}
+
+/* Hide the product result count */
+.woocommerce-result-count {
+  display: none;
+}
+
+/* Hide the sort-by control */
+.woocommerce .woocommerce-ordering select {
+  display: none;
+}
