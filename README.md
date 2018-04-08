@@ -8,6 +8,7 @@ This project was developed during the 2018 Hack For a Cause event in Eugene, OR.
 
 We used the following technologies to implement our solution:
 
+Payment:
 - Paypal
 - Stripe
 - QR Codes
@@ -34,6 +35,23 @@ In the Trigger NFC app:
 The phone should now be able to read the tag.
 
 ## Bluetooth Beacons
+
+Access points:
+- Bluetooth Beacons
+- NFC Tags
+- QR code
+
+1. Build the payment plugin
+
+1.1 Wordpress
+    
+    1.1.1 Woocommerce
+    
+  
+
+
+
+
 
 ## License
 
