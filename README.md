@@ -59,11 +59,11 @@ The team used AWS LightSail to spin up an instance of the existing Wordpress sit
 
 We used the following technologies to implement our solution. Usage of these technologies eliminate the need to enter NAACP website and navigate to payment page.
 
-[Bluetooth Beacons](../qr-donation-by-marionberries/documentation/bluetooth-beacon/))
+[Bluetooth Beacons](/documentation/bluetooth_beacon/)
 
-[NFC Tags](../qr-donation-by-marionberries/documentation/nfc_tags/)
+[NFC Tags](/documentation/nfc_tags/)
 
-[QR code](../qr-donation-by-marionberries/documentation/qr-codes/)
+[QR code](/documentation/qr_codes/)
 
 
 
