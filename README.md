@@ -9,6 +9,7 @@ This project was developed during the 2018 Hack For a Cause event in Eugene, OR.
 We used the following technologies to implement our solution:
 
 Payment:
+
 - Paypal
 - Stripe
 - QR Codes
@@ -19,7 +20,7 @@ Payment:
 
 ## NFC Tags
 
-### Writing
+### Writing URLs to Tags
 
 The NFC Tags hold the donation page URLs. The easiest way to write the URLs to the tags requires a smart phone with built-in NFC capability and an NFC writer app, such as [NFC Writer by Trigger](https://play.google.com/store/apps/details?id=com.tagstand.writer).
 
@@ -37,6 +38,7 @@ The phone should now be able to read the tag.
 ## Bluetooth Beacons
 
 Access points:
+
 - Bluetooth Beacons
 - NFC Tags
 - QR code
