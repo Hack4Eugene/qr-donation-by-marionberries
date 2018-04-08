@@ -28,6 +28,7 @@ The existing payment method was using the legacy Paypal extention. Donors were u
 ### Payment Options:
 
 [Paypal with WooCommerce](https://docs.woocommerce.com/document/paypal-standard/)
+
 [Stripe with Woocommerce](https://woocommerce.com/products/stripe/)
 
 ### LightSail:
